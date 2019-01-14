@@ -54,4 +54,4 @@ mHits[0] >= (SystemClock.uptimeMillis() - DURATION)
  
 SystemClock.uptimeMillis()：手机开机到现在的时间。
 
-<font color=#FF4040>  注意：执行操作后需要从新初始化数组：mHits = new long[COUNTS];否则点击第六次第七次的时候也会触发事件。 </font>
+<font color=red>注意：执行操作后需要从新初始化数组：mHits = new long[COUNTS];否则点击第六次第七次的时候也会触发事件。</font>
